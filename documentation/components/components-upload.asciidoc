@@ -44,7 +44,7 @@ upload.setButtonCaption("Upload Now");
 
 You can also hide the upload button with [literal]#++.v-upload .v-button
 {display: none}++# in theme, have custom logic for starting the upload, and call
-[methodname]#startUpload()# to start it. If the upload component has
+[methodname]#submitUpload()# to start it. If the upload component has
 [methodname]#setImmediate(true)# enabled, uploading starts immediately after
 choosing the file.
 
